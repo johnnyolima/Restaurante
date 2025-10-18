@@ -52,7 +52,9 @@ body{
 
 .rodape2 {
     display: inline-block;
-    padding: 5px
+    vertical-align: middle;
+    padding: 5px;
+    width: 450px;
 }
 
 .rodape2 img {
@@ -65,10 +67,30 @@ body{
 }
 
 #rodape {
+    background-color: #006442;
+    height:160px;
     text-align: center;
 }
 
-#rodape {
-    background-color: #006442;
-    height:180px;
+.rodape3 {
+    text-align: center;
+    
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.imagen h3{
+    text-align: center;
+}
+
+.imagens_produto img{
+    width:300px;
+    height:300px;
+}
+.imagens_produto {
+    display: inline;
+    padding: 5px;
 }
