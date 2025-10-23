@@ -94,3 +94,13 @@ body{
     display: inline;
     padding: 5px;
 }
+.container_x{
+    text-align: center;
+}
+
+.container-fluid{
+    text-align: center; 
+}
+.y{
+    padding: 50px;
+}
