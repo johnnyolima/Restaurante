@@ -1,20 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Cardápio - Restaurante</title>
 
-    <title>Olá, mundo!</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    >
+
+    <!-- Estilos personalizados -->
     <link rel="stylesheet" href="css/style.css">
   </head>
+
   <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#"><img src="imagens/logo.png"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <a class="navbar-brand" href="#">
+        <img src="imagens/logo.png" alt="Logo" style="height: 50px;">
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#conteudoNavbarSuportado"
+        aria-controls="conteudoNavbarSuportado"
+        aria-expanded="false"
+        aria-label="Alternar navegação"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
     
@@ -27,171 +46,122 @@
             <a class="nav-link" href="#">História</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
               Produtos
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">Pratos</a>
               <a class="dropdown-item" href="#">Bebidas</a>
-              <a class="dropdown-item" href="#">Sobremesa</a>
+              <a class="dropdown-item" href="#">Sobremesas</a>
             </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contatos</a>
           </li>
         </ul>
+
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Pesquisar"
+            aria-label="Pesquisar"
+          >
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
         </form>
       </div>
     </nav>
-    <div class="container-fluid x">
-      <div class="row">
-        <div class="col-md-12">
 
-        <div class="row"></div>
+    <!-- Produtos -->
+    <div class="container-fluid bg-info py-4">
+      <div class="row justify-content-center text-center text-white">
 
-      </div>
-    </div>
-    </div>
-  </div>
-    <div class="container-fluid bg-info y">
-      <div class="row">
-      <div class="col-md-1 bg-info">
-      </div>
-      <div class="col-md-2 bg-info">
-          <img src="imagens/produto1.png" class="img-fluid rounded">
+        <!-- Produto -->
+        <div class="col-md-2 mb-3">
+          <img src="imagens/produto1.png" class="img-fluid rounded" alt="Produto 1">
           <h5>Produto</h5>
-<p>R$ 38,00</p>
-      </div>
-      <div class="col-md-2 bg-info">
-         <img src="imagens/produto2.png" class="img-fluid rounded">
-         <h5>Produto</h5>
-<p>R$ 38,00</p>
-      </div>
-      <div class="col-md-2 bg-info">
-         <img src="imagens/produto3.png" class="img-fluid rounded">
-         <h5>Produto</h5>
-<p>R$ 38,00</p>
-      </div>
-      <div class="col-md-2 bg-info">
-        <img src="imagens/produto4.png" class="img-fluid rounded">
-        <h5>Produto</h5>
-<p>R$ 38,00</p>
-       </div>      
-       <div class="col-md-2 bg-info">
-        <img src="imagens/produto5.png" class="img-fluid rounded">
-        <h5>Produto</h5>
-<p>R$ 38,00</p>
-       </div>
-      <div class="col-md-1 bg-info">
-        
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-1 bg-info">
-      </div>
-      <div class="col-md-2 bg-info">
-          <img src="imagens/produto1.png" class="img-fluid rounded">
+          <p>R$ 38,00</p>
+        </div>
+
+        <div class="col-md-2 mb-3">
+          <img src="imagens/produto2.png" class="img-fluid rounded" alt="Produto 2">
           <h5>Produto</h5>
-<p>R$ 38,00</p>
-      </div>
-      <div class="col-md-2 bg-info">
-         <img src="imagens/produto2.png" class="img-fluid rounded">
-         <h5>Produto</h5>
-<p>R$ 38,00</p>
-      </div>
-      <div class="col-md-2 bg-info">
-         <img src="imagens/produto3.png" class="img-fluid rounded">
-         <h5>Produto</h5>
-<p>R$ 38,00</p>
-      </div>
-      <div class="col-md-2 bg-info">
-        <img src="imagens/produto4.png" class="img-fluid rounded">
-        <h5>Produto</h5>
-<p>R$ 38,00</p>
-       </div>      
-       <div class="col-md-2 bg-info">
-        <img src="imagens/produto5.png" class="img-fluid rounded">
-        <h5>Produto</h5>
-<p>R$ 38,00</p>
-       </div>
-      <div class="col-md-1 bg-info">
-        
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-1 bg-info">
-      </div>
-      <div class="col-md-2 bg-info">
-          <img src="imagens/produto1.png" class="img-fluid rounded">
+          <p>R$ 38,00</p>
+        </div>
+
+        <div class="col-md-2 mb-3">
+          <img src="imagens/produto3.png" class="img-fluid rounded" alt="Produto 3">
           <h5>Produto</h5>
-<p>R$ 38,00</p>
-      </div>
-      <div class="col-md-2 bg-info">
-         <img src="imagens/produto2.png" class="img-fluid rounded">
-         <h5>Produto</h5>
-<p>R$ 38,00</p>
-      </div>
-      <div class="col-md-2 bg-info">
-         <img src="imagens/produto3.png" class="img-fluid rounded">
-         <h5>Produto</h5>
-<p>R$ 38,00</p>
-      </div>
-      <div class="col-md-2 bg-info">
-        <img src="imagens/produto4.png" class="img-fluid rounded">
-        <h5>Produto</h5>
-<p>R$ 38,00</p>
-       </div>      
-       <div class="col-md-2 bg-info">
-        <img src="imagens/produto5.png" class="img-fluid rounded">
-        <h5>Produto</h5>
-<p>R$ 38,00</p>
-       </div>
-      <div class="col-md-1 bg-info">
-        </div>
-        </div>
+          <p>R$ 38,00</p>
         </div>
 
-        <div class="container-fluid y">
-        <div class="row">
-        <div class="col-md-3 bg-info">
-<nav>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="historia.html">História</a></li>
-                            <li><a href="produtos.html">Produtos</a></li>
-                            <li><a href="produtos.html">Contatos</a></li>
-                        </ul>
-                    </nav>
-</div>
-
-        <div class="col-md-3 bg-info">
-              <h3> Acesse nossas redes sociais</h3>
-              <img src="imagens/insta.png">
-              <img src="imagens/fb.png">
-              <img src="imagens/wp.png">
-
+        <div class="col-md-2 mb-3">
+          <img src="imagens/produto4.png" class="img-fluid rounded" alt="Produto 4">
+          <h5>Produto</h5>
+          <p>R$ 38,00</p>
         </div>
 
-        <div class="col-md-3 bg-info">
-            <p>Conheça nossa Loja</p>
-            <p>Rua Dona Isabel,1000</p>
-            <p>Bonsucesso - Rj</p>
-        
-        </div>
-        <div class="col-md-3 bg-info">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.3363593743697!2d-43.25822502469082!3d-22.864029879285155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997c013902f0c3%3A0xa1ad7b4cb85e0ddb!2sSenac%20Bonsucesso!5e0!3m2!1spt-BR!2sbr!4v1760571803791!5m2!1spt-BR!2sbr" width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="col-md-2 mb-3">
+          <img src="imagens/produto5.png" class="img-fluid rounded" alt="Produto 5">
+          <h5>Produto</h5>
+          <p>R$ 38,00</p>
         </div>
 
       </div>
     </div>
-  </div>
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Rodapé -->
+    <footer class="container-fluid bg-info text-white py-4">
+      <div class="row text-center">
+
+        <div class="col-md-3">
+          <nav>
+            <ul style="list-style: none; padding: 0;">
+              <li><a href="index.html" class="text-white">Home</a></li>
+              <li><a href="historia.html" class="text-white">História</a></li>
+              <li><a href="produtos.html" class="text-white">Produtos</a></li>
+              <li><a href="contatos.html" class="text-white">Contatos</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="col-md-3">
+          <h5>Acesse nossas redes sociais</h5>
+          <img src="imagens/insta.png" alt="Instagram" width="40">
+          <img src="imagens/fb.png" alt="Facebook" width="40">
+          <img src="imagens/wp.png" alt="WhatsApp" width="40">
+        </div>
+
+        <div class="col-md-3">
+          <p>Conheça nossa loja</p>
+          <p>Rua Dona Isabel, 1000</p>
+          <p>Bonsucesso - RJ</p>
+        </div>
+
+        <div class="col-md-3">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.3363593743697!2d-43.25822502469082!3d-22.864029879285155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997c013902f0c3%3A0xa1ad7b4cb85e0ddb!2sSenac%20Bonsucesso!5e0!3m2!1spt-BR!2sbr!4v1760571803791!5m2!1spt-BR!2sbr"
+            width="150"
+            height="150"
+            style="border:0;"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script>
   </body>
 </html>
