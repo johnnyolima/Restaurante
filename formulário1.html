@@ -6,20 +6,21 @@
 
     <title>Cardápio - Restaurante</title>
 
-    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     >
-
-    <!-- Estilos personalizados -->
     <link rel="stylesheet" href="css/style.css">
   </head>
 
+
+  
   <body>
-    <!-- Navbar -->
+
+
+    
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">
         <img src="imagens/logo.png" alt="Logo" style="height: 50px;">
@@ -80,113 +81,78 @@
       </div>
     </nav>
 
-    <!-- Produtos -->
-    <div class="container-fluid bg-info py-4">
-      <div class="row justify-content-center text-center text-white">
+  </div>
+  
 
-        <!-- Produto -->
-        <div class="col-md-2 mb-3">
-          <img src="imagens/produto1.png" class="img-fluid rounded" alt="Produto 1">
-          <h5>Produto</h5>
-          <p>R$ 38,00</p>
+
+
+
+  <body>
+
+    <form method="post" action="mailto:johnnyolima@icloud.com">
+
+        <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" class="form-control" placeholder= "Digite seu nome" name="nome" id="nome"><br><br>
         </div>
 
-        <div class="col-md-2 mb-3">
-          <img src="imagens/produto2.png" class="img-fluid rounded" alt="Produto 2">
-          <h5>Produto</h5>
-          <p>R$ 38,00</p>
-        </div>
-
-        <div class="col-md-2 mb-3">
-          <img src="imagens/produto3.png" class="img-fluid rounded" alt="Produto 3">
-          <h5>Produto</h5>
-          <p>R$ 38,00</p>
-        </div>
-
-        <div class="col-md-2 mb-3">
-          <img src="imagens/produto4.png" class="img-fluid rounded" alt="Produto 4">
-          <h5>Produto</h5>
-          <p>R$ 38,00</p>
-        </div>
-
-        <div class="col-md-2 mb-3">
-          <img src="imagens/produto5.png" class="img-fluid rounded" alt="Produto 5">
-          <h5>Produto</h5>
-          <p>R$ 38,00</p>
-        </div>
-
-      </div>
+        <div class="form-group">
+        <label>E-mail:</label>
+        <input type="email"class="form-control" nome="email"><br><br>
     </div>
 
-    <div class="container-fluid bg-info py-4">
-      <div class="row justify-content-center text-center text-white">
 
-        <!-- Produto -->
-        <div class="col-md-2 mb-3">
-          <img src="imagens/produto1.png" class="img-fluid rounded" alt="Produto 1">
-          <h5>Produto</h5>
-          <p>R$ 38,00</p>
-        </div>
+    <div class="form-group">
+      <label for="nome">Endereço:</label>
+      <input type="text" class="form-control" placeholder= "Digite seu nome" name="endereco" id=""><br><br>
+      </div>
 
-        <div class="col-md-2 mb-3">
-          <img src="imagens/produto2.png" class="img-fluid rounded" alt="Produto 2">
-          <h5>Produto</h5>
-          <p>R$ 38,00</p>
-        </div>
 
-        <div class="col-md-2 mb-3">
-          <img src="imagens/produto3.png" class="img-fluid rounded" alt="Produto 3">
-          <h5>Produto</h5>
-          <p>R$ 38,00</p>
-        </div>
+        <div class="form-group">
+        <label>Número:</label>
+        <input type="number"class="form-control"><br><br>
+    </div>
 
-        <div class="col-md-2 mb-3">
-          <img src="imagens/produto4.png" class="img-fluid rounded" alt="Produto 4">
-          <h5>Produto</h5>
-          <p>R$ 38,00</p>
-        </div>
 
-        <div class="col-md-2 mb-3">
-          <img src="imagens/produto5.png" class="img-fluid rounded" alt="Produto 5">
-          <h5>Produto</h5>
-          <p>R$ 38,00</p>
-        </div>
-
-        <div class="container-fluid bg-info py-4">
-          <div class="row justify-content-center text-center text-white">
+        <div class="form-group">
+        <label>Data de Nascimento:</label>
+        <input type="date"c lass="form-control" nome="datan"><br><br>
+    </div>
     
-            <!-- Produto -->
-            <div class="col-md-2 mb-3">
-              <img src="imagens/produto1.png" class="img-fluid rounded" alt="Produto 1">
-              <h5>Produto</h5>
-              <p>R$ 38,00</p>
-            </div>
-    
-            <div class="col-md-2 mb-3">
-              <img src="imagens/produto2.png" class="img-fluid rounded" alt="Produto 2">
-              <h5>Produto</h5>
-              <p>R$ 38,00</p>
-            </div>
-    
-            <div class="col-md-2 mb-3">
-              <img src="imagens/produto3.png" class="img-fluid rounded" alt="Produto 3">
-              <h5>Produto</h5>
-              <p>R$ 38,00</p>
-            </div>
-    
-            <div class="col-md-2 mb-3">
-              <img src="imagens/produto4.png" class="img-fluid rounded" alt="Produto 4">
-              <h5>Produto</h5>
-              <p>R$ 38,00</p>
-            </div>
-    
-            <div class="col-md-2 mb-3">
-              <img src="imagens/produto5.png" class="img-fluid rounded" alt="Produto 5">
-              <h5>Produto</h5>
-              <p>R$ 38,00</p>
-            </div>
+    <div class="form-group">
+        <label>Estado Civil:</label><br>
+        <input type="radio" class="form-check-label" name="ec" value="solteiro">  Solteiro<br>
+        <input type="radio" class="form-check-label" name="ec"value="casado">  Casado<br><br>
+    </div>
 
-    <!-- Rodapé -->
+        <div class="form-group">
+        <label>Naturalidade:</label><br>
+        <select name="estado">
+            <option value="AL">AL</option>
+            <option value="AP">AP</option>
+            <option value="AM">AM</option> 
+        </select><br><br>
+    </div>
+        <div class="form-group"> 
+        <textarea>Digite suas sugestões</textarea><br><br>
+    </div>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <br><br>
+
+
+
+
+
+
+
+
+
+
+  </section>
+
+
     <footer class="container-fluid bg-info text-white py-4">
       <div class="row text-center">
 
@@ -227,7 +193,7 @@
       </div>
     </footer>
 
-    <!-- Scripts Bootstrap -->
+  
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script>
